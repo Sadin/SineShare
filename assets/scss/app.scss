@@ -342,3 +342,7 @@ header.navigation {
     }
   }
 }
+
+.content {
+  @include outer-container;
+}
