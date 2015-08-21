@@ -6,8 +6,8 @@ html {
   box-sizing: inherit; }
 
 header.navigation {
-  background-color: #333;
-  border-bottom: 1px solid #1a1a1a;
+  background-color: #232C33;
+  border-bottom: 1px solid #0e1215;
   min-height: 60px;
   width: 100%;
   z-index: 999; }
@@ -71,7 +71,7 @@ header.navigation {
         margin: 0;
         padding: 0; } }
   header.navigation ul li.nav-link {
-    background: #333;
+    background: #232C33;
     display: block;
     line-height: 60px;
     overflow: hidden;
@@ -166,13 +166,13 @@ header.navigation {
             border-bottom-right-radius: 3px;
             padding-bottom: 0.7em; } }
       header.navigation ul.submenu li a {
-        background-color: #2b2b2b;
+        background-color: #1d242a;
         display: inline-block;
         text-align: right;
         width: 100%; }
         @media screen and (min-width: 53.75em) {
           header.navigation ul.submenu li a {
-            background-color: #333;
+            background-color: #232C33;
             padding-left: 1em;
             text-align: left;
             width: 12em; } }
@@ -196,9 +196,9 @@ header.navigation {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
-        background: #404040;
+        background: #2d3942;
         border-radius: 6px;
-        border: 1px solid #262626;
+        border: 1px solid #191f24;
         color: rgba(255, 255, 255, 0.7);
         font-size: 0.9em;
         font-style: italic;
@@ -209,7 +209,7 @@ header.navigation {
           header.navigation .search-bar form input[type=search] {
             width: 100%; } }
       header.navigation .search-bar form button[type=submit] {
-        background: #404040;
+        background: #2d3942;
         border: none;
         bottom: 0.3em;
         left: auto;
@@ -241,3 +241,17 @@ header.navigation {
     clear: both;
     content: "";
     display: table; }
+  .content .warning {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 48.821174201%;
+    margin-left: 25.5894128995%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    padding: 1em; }
+    .content .warning:last-child {
+      margin-right: 0; }
+    .content .warning .sub-section h1 {
+      font-size: 5em; }

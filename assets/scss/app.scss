@@ -3,8 +3,8 @@
 header.navigation {
   $base-border-color: gainsboro !default;
   $base-border-radius: 3px !default;
-  $action-color: #477DCA !default;
-  $dark-gray: #333 !default;
+  $action-color: #B7CE63 !default;
+  $dark-gray: #232C33 !default;
   $large-screen: em(860) !default;
   $navigation-padding: 1em;
   $navigation-background: $dark-gray;
@@ -345,4 +345,26 @@ header.navigation {
 
 .content {
   @include outer-container;
+
+
+
+
+// 404 section of SCSS/CSS needs major revisions but not getting caught up on it.
+
+  .warning {
+    @include span-columns(6);
+    @include shift(3);
+
+    height:500px;
+    display: flex;
+    align-items: center;
+    padding: 1em;
+
+    .sub-section {
+
+      h1{
+        font-size: 5em
+      }
+    }
+  }
 }
